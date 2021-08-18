@@ -27,4 +27,4 @@ app.get('/',(req,res)=>{
 
 
 
-app.listen(80, () => console.log(`Server started on port`));
+app.listen(5000, () => console.log(`Server started on port`));
