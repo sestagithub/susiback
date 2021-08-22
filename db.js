@@ -20,7 +20,7 @@ var mysql = require('mysql');
 
 db.connect((err) => {
   if(err){
-      // throw err;
+      throw err;
   }
   console.log('MySql Connected...');
 });

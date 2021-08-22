@@ -31,6 +31,7 @@ router.post('/',async (req, res) => {
 
     var { name, email, password } = req.body;
     // name ="unknown"
+    console.log(name, email, password )
     let sql = `SELECT * FROM users WHERE email='${email}'`;
 
     let query = db.query(sql,async (err,result)=>{
